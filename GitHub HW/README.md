@@ -1,4 +1,3 @@
 # Git & GitHub Homework
 
-Student Name: Reham Alhsani
-Course: Foundation Bootcamp – Programming Track
+This file is for practicing Git and GitHub commands.
