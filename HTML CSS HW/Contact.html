@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <link rel="Stylesheet" href="Style.css">
+</head>
+<body>
+
+<div class="nav">
+    <a href="Index.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="Table.html">Table</a>
+    <a href="Contact.html">Contact</a>
+</div>
+
+<h1 id="title">Contact Me</h1>
+
+<form class="form-box">
+
+    <!-- Name -->
+    <label for="name">Name :</label><br>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+
+    <!-- Email -->
+    <label for="email">Email :</label><br>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+
+    <!-- Password -->
+    <label for="password">Password :</label><br>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+
+    <!-- Gender -->
+    <label>Gender :</label><br>
+    <label>
+    <input type="radio" name="gender"> Male
+    </label>
+
+    <label>
+    <input type="radio" name="gender"> Female
+    </label>
+    <br><br>
+
+    <!-- Skills -->
+    <label>Skills :</label><br>
+    <label>
+    <input type="checkbox"> HTML
+    </label>
+
+    <label>
+    <input type="checkbox"> CSS
+    </label>
+
+    <label>
+    <input type="checkbox"> ASP.Net
+    </label>
+
+    <label>
+    <input type="checkbox"> Java
+    </label>
+    <br><br>
+
+    <!-- Country -->
+    <label for="country">Country :</label><br>
+    <select id="country" name="country" required>
+        <optgroup label="Middle East"> 
+        <option value="Saudi Arabia">Saudi Arabia</option>
+        <option value="UAE">UAE</option>
+        </optgroup>
+    </select>
+    <br><br>
+
+    <!-- City -->
+    <label for="city">City :</label><br>
+    <input list="cities" id="city" name="city">
+    <datalist id="cities">
+        <option value="Riyadh">
+        <option value="Jeddah">
+        <option value="Dammam">
+        <option value="Abu Dhabi">
+        <option value="Dubai">
+    </datalist>
+    <br><br>
+
+    <!-- Message -->
+    <label for="message">Message :</label><br>
+    <textarea id="message" name="message" required></textarea>
+    <br><br>
+
+    <!-- Buttons -->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+</form>
+
+</body>
+</html>
