@@ -2,3 +2,4 @@ My name is Reham Alhsani
 My field is Cyber Security & programming
 My favorite programming language is [Python / Java / C++ / etc.]
 I want to learn Git and GitHub to manage code and projects
+I am improving my technical skills step by step
